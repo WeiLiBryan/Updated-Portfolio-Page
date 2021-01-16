@@ -21,13 +21,19 @@ html, body {
 }
 
 .sidebar {
-    margin: 0;
+    margin-top: 160px;
+    margin-left: 30px;
     padding: 0;
     width: 200px;
     background-color: #d0e8f2;
     position: fixed;
-    height: 100%;
+    height: 300px;
     overflow: auto;
+    text-align: center;
+}
+
+.sidebar i {
+    padding: 10px;
 }
   
 .sidebar a {
@@ -49,19 +55,55 @@ html, body {
 }
 
 div.content {
-    margin-left: 200px;
+    margin-left: 300px;
     padding: 1px 16px;
-    height: 1000px;
+    height: fit-content;
+    background-color: #9fc5d3;
+    position: relative;
+    right: 20px;
+    top: 70px;
+    height: 520px;
+    width: 1000px; 
+    font-weight: bold;
 }
 
-/* .background-shape {
+div.about {
+    position: relative;
+    text-align: center;
+    bottom: 220px;
+    left: 120px;
+    color: #fcf8ec;
+    font-size: 50px;
+}
+
+div.info {
+    position: relative;
+    text-align: justify;
+    font-size: 20px;
+    bottom: 210px;
+    left: 375px;
+    color: #fcf8ec;
+    width: 500px;
+}
+
+.background-shape {
     height: 520px;
     width: 1000px;   
     background-color:#9fc5d3;
     position: absolute;
-    right: -20px;
-    top: 95px;
-} */
+    right: 20px;
+    top: 70px;
+}
+
+.profile {
+    position: relative;
+    top: 130px;
+    left: 60px;
+}
+
+img {
+    border: 5px solid #456268;
+}
 
 @media screen and (max-width: 700px) {
     .sidebar {
@@ -69,13 +111,25 @@ div.content {
         height: auto;
         position: relative;
     }
-    .sidebar a {float: left;}
-        div.content {margin-left: 0;}
+    .sidebar a {
+        float: left;
     }
+    div.content {
+        margin-left: 0;
+    }
+    .background-shape{
+        display: none;
+    }
+}
+
+    
 
 @media screen and (max-width: 400px) {
     .sidebar a {
         text-align: center;
         float: none;
+    }
+    .background-shape{
+        display: none;
     }
 }
