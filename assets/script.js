@@ -1,8 +1,8 @@
 $(document).ready(function() {
     $('.sidebar').on("click", "a", function(){
-        var cl = this.class;
-
-        switch(cl){
+        var id = $(this).attr('id');
+        console.log(id);
+        switch(id){
             case "about-btn":
                 $('#about-sec').attr('class', 'show about-me');
                 $('#proj-sec').attr('class', 'hide proj-sec');
@@ -15,5 +15,11 @@ $(document).ready(function() {
                 break;
         }
     });
+
+    // $('.sidebar').on("click", 'i', function(){
+    //     var data = this.data;
+
+
+    // });
 
 });
