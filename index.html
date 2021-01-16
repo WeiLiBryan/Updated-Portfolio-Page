@@ -22,9 +22,9 @@
     <!-- Sidebar -->
     <sidebar class="sidebar rounded">
       <a class="active" href="#home">William Bryan</a>
-      <a href="#">About Me</a>
-      <a href="#">Projects</a>
-      <a href="#">Resume</a>
+      <a href="#" class="about-btn">About Me</a>
+      <a href="#" class="proj-btn">Projects</a>
+      <a href="#" class="resume">Resume</a>
       <div class="social">
         <i class="fa fa-linkedin"></i>
         <i class="fa fa-github"></i>
@@ -33,7 +33,7 @@
 
     <div class="container">
 
-      <div class="hide about-me" id="about-sec">
+      <div class="show about-me" id="about-sec">
         <div class="row">
           <!-- image -->
             <div class="col-sm-4">
@@ -48,54 +48,47 @@
         </div>
       </div>
 
-      <div class="show about-me" id="proj-sec">
-        <div class="row">
+      <div class="hide about-me" id="proj-sec">
+        <div class="row text-center">
+          <div class="col-sm-12"><p>PROJECTS</p></div>
+        </div>
+        
+        <br>
 
+        <div class="row">
+          <!-- Proj1 -->
           <div class="col-sm-6">
             <img src="assets/images/unwind.PNG" class="rounded">
           </div>
 
+          <!-- Weather Dashboard -->
           <div class="col-sm-6">
             <img src="assets/images/weather.PNG" class="rounded">
           </div>
 
         </div>
 
-      </div>
+        <br>
 
-
-
-    </div>
-
-
-    <!-- Giant rectangle in the background -->
-    <!-- <div class="background-shape content"></div> -->
-
-    <!-- Main content of page -->
-    <!-- <div class="container content"> -->
-
-      <!-- ABOUT ME -->
-      <!-- <div class="show" id="about-me">
-        <div class="row"> -->
-          <!-- image -->
-          <!-- <div class="col-sm-4">
-            <img src="assets/images/image.jpg" class="rounded" width="250" height="300">
+        <div class="row">
+          
+          <!-- password Gen-->
+          <div class="col-sm-6">
+            <img src="assets/images/passGen.PNG" class="rounded">
           </div>
 
-          <div class="col-sm-8 text-center">
-            <p>ABOUT ME</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est magni quasi eaque iste, veritatis asperiores laboriosam ipsam nam unde accusantium. Alias repudiandae aperiam illum, distinctio ex pariatur iusto voluptas sunt.</p>
+          <!-- planner -->
+          <div class="col-sm-6">
+            <img src="assets/images/planner.PNG" class="rounded">
           </div>
 
         </div>
-      </div> -->
-
-      <!-- PROJECTS -->
-      <!-- <div class="show" id="projects">
-        <img src="assets/images/unwind.PNG" class="rounded one" width="500" height="280">
-      </div> -->
+      </div>
 
     </div>
+
+
+
 
 
 
@@ -104,6 +97,7 @@
    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <script src="assets/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     
   </body>
 </html>

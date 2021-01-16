@@ -16,7 +16,6 @@ html, body {
     height: 100%;
     background-color: #fcf8ec;
     max-width: 100%;
-    /* overflow-x: hidden; */
 }
 
 .sidebar {
@@ -65,13 +64,13 @@ html, body {
     margin-left: 300px;
     margin-top: 75px;
     background-color: #9fc5d3;
-    height: 520px;
+    height: fit-content;
     width: 930px; 
 }
 
 .about-me {
-    padding: 20px;
-    padding-top: 70px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 p {
@@ -80,63 +79,11 @@ p {
     font-size: 25px;
 }
 
-/* div.content {
-    margin-left: 300px;
-    padding: 1px 16px;
-    height: fit-content;
-    background-color: #9fc5d3;
-    position: relative;
-    right: 20px;
-    top: 70px;
-    height: 520px;
-    width: 1000px; 
-    font-weight: bold;
-} */
-
-/* #about-me {
-    margin-top: 100px;
-} */
-/* div.about {
-    position: relative;
-    text-align: center;
-    bottom: 220px;
-    left: 120px;
-    color: #fcf8ec;
-    font-size: 50px;
-}
-
-div.info {
-    position: relative;
-    text-align: justify;
-    font-size: 20px;
-    bottom: 210px;
-    left: 375px;
-    color: #fcf8ec;
-    width: 500px;
-}
-
-.background-shape {
-    height: 520px;
-    width: 1000px;   
-    background-color:#9fc5d3;
-    position: absolute;
-    right: 20px;
-    top: 70px;
-}
-
-.profile {
-    position: relative;
-    top: 100px;
-    left: 60px;
-} */
-
 img {
     border: 5px solid #456268;
     width: 100%;
     height: 100%;
 }
-
-
 
 
 @media screen and (max-width: 700px) {
@@ -155,8 +102,6 @@ img {
         display: none;
     }
 }
-
-    
 
 @media screen and (max-width: 400px) {
     .sidebar a {
