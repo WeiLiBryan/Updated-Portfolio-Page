@@ -34,12 +34,17 @@ html, body {
     padding: 10px;
 }
   
-.sidebar a {
+.navigation a, .social a {
     display: block;
     color: black;
     padding: 16px;
     text-decoration: none;
 }
+
+.social a {
+    display: inline;
+}
+
 
 .sidebar a.active {
     background-color: #79a3b1;
@@ -101,6 +106,11 @@ img {
     .background-shape{
         display: none;
     }
+    .container{
+        display: inline;
+        background-color: none;
+        
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -110,5 +120,9 @@ img {
     }
     .background-shape{
         display: none;
+    }
+    .container{
+        display: inline;
+        background-color: none;
     }
 }
