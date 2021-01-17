@@ -15,11 +15,4 @@ $(document).ready(function() {
                 break;
         }
     });
-
-    // $('.sidebar').on("click", 'i', function(){
-    //     var data = this.data;
-
-
-    // });
-
 });

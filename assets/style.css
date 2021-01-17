@@ -67,7 +67,7 @@ html, body {
 
 .container {
     margin-left: 300px;
-    margin-top: 75px;
+    margin-top: 80px;
     background-color: #9fc5d3;
     height: fit-content;
     width: 930px; 
@@ -108,7 +108,7 @@ img {
     }
     .container{
         display: inline;
-        background-color: none;
+        background-color: #fcf8ec;
         
     }
 }
@@ -123,6 +123,8 @@ img {
     }
     .container{
         display: inline;
-        background-color: none;
+        background-color: #fcf8ec;
+        float: none;
+        margin-left: 20px;
     }
 }
